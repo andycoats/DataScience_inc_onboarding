@@ -1,0 +1,30 @@
+---
+title: "Creating and Using a Project"
+output: html_notebook
+---
+
+In this section we'll learn how to set up a project on the platform.
+
+# Creating the Project
+Projects in the platform are linked to version control repositories like Git.  In this section we assume that connecticity to your organization's version control service has already been set up.
+
+If this is a fresh project without a repository, one must be created first.  For an existing project, its repository can simply be imported into the platform. 
+
+# Importing the Project
+From the **Projects** page, click on the **New Project** button.
+
+Select the provider where the project is hosted.  In the search box, type the name of the project's repository.  Your repository should show up in the search box dropdown menu.  Click on your repository's name.
+
+**Note:  Each repository can only be linked to a single project in the platform.  If you see a yellow icon next to a repository, this indicates that this repository has already been imported and linked to a project and cannot be imported again unless that project is deleted.**
+
+Enter your project title and a project description.  This is how your project will be identified in the paltform.  
+You can now optionally invite collaborators to work with you on the project by entering their names in the **Invite Collaborators** box.  You can also add collaborators after a project has been impored, so for now we'll leave that blank.
+
+Once the relevant fields are filled out, click on the **Create Project** button to create your project.
+
+# Working on Your Project
+Your project will now show up on the platform in the projects page, which lists all projects.  You can also use the filtering tools to show only projects on which you are a collaborator to make finding your project easier.
+
+Click on the project you just created.  Doing so will take you to the **Project Overview** page.  From here you can work on your project.
+
+There are many things you can do from within a project including edit and run scripts, schedule jobs, launch notebooks, and publish reports.  The menu with these actions can be opened by clicking the **+** button on the left sidebar.
